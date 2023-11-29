@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                Text("Row")
+            }
         }
-        .padding()
     }
 }
 
